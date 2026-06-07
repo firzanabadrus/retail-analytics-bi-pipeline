@@ -1,0 +1,783 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Order Items</AnnotationText>
+          <DefaultAnnotationText>olist_order_items_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="order_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="order_item_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="product_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="seller_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="shipping_limit_date" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="price" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="freight_value" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Orders</AnnotationText>
+          <DefaultAnnotationText>olist_orders_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="order_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="customer_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_status" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_purchase_timestamp" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_approved_at" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_delivered_carrier_date" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_delivered_customer_date" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_estimated_delivery_date" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Products</AnnotationText>
+          <DefaultAnnotationText>olist_products_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_category_name" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_name_lenght" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_description_lenght" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_photos_qty" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_weight_g" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_length_cm" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_height_cm" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_width_cm" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="138" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Sellers</AnnotationText>
+          <DefaultAnnotationText>olist_sellers_dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="seller_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="V_String" />
+            <Field name="seller_zip_code_prefix" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="V_String" />
+            <Field name="seller_city" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="V_String" />
+            <Field name="seller_state" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[order_status] != "" AND !IsNull([order_purchase_timestamp]) AND !IsNull([order_delivered_customer_date]) ]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[order_status] != "" AND !IsNull([order_purchase_timestamp]) AND !IsNull([order_...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([price]) AND !IsNull([freight_value]) AND [price] &gt; 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([price]) AND !IsNull([freight_value]) AND [price] &gt; 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="246" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="product_id" selected="False" />
+            <Field field="product_category_name" selected="True" />
+            <Field field="product_name_lenght" selected="True" />
+            <Field field="product_description_lenght" selected="True" />
+            <Field field="product_photos_qty" selected="True" />
+            <Field field="product_weight_g" selected="True" />
+            <Field field="product_length_cm" selected="True" />
+            <Field field="product_height_cm" selected="True" />
+            <Field field="product_width_cm" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="product_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_category_name" size="46" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="V_String" />
+            <Field name="product_name_lenght" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Byte" />
+            <Field name="product_description_lenght" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Int16" />
+            <Field name="product_photos_qty" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Byte" />
+            <Field name="product_weight_g" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Int32" />
+            <Field name="product_length_cm" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Byte" />
+            <Field name="product_height_cm" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Byte" />
+            <Field name="product_width_cm" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_products_dataset.csv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="order_id" selected="False" />
+            <Field field="order_item_id" selected="False" />
+            <Field field="product_id" selected="False" />
+            <Field field="seller_id" selected="False" />
+            <Field field="shipping_limit_date" selected="True" />
+            <Field field="price" selected="True" />
+            <Field field="freight_value" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="order_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="order_item_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="product_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="seller_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="V_String" />
+            <Field name="shipping_limit_date" size="19" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="DateTime" />
+            <Field name="price" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="Double" />
+            <Field name="freight_value" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_order_items_dataset.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="order_id" selected="False" />
+            <Field field="customer_id" selected="False" />
+            <Field field="order_status" selected="True" />
+            <Field field="order_purchase_timestamp" selected="True" />
+            <Field field="order_approved_at" selected="True" />
+            <Field field="order_delivered_carrier_date" selected="True" />
+            <Field field="order_delivered_customer_date" selected="True" />
+            <Field field="order_estimated_delivery_date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="order_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="customer_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="V_String" />
+            <Field name="order_status" size="11" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="String" />
+            <Field name="order_purchase_timestamp" size="19" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="DateTime" />
+            <Field name="order_approved_at" size="19" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="DateTime" />
+            <Field name="order_delivered_carrier_date" size="19" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="DateTime" />
+            <Field name="order_delivered_customer_date" size="19" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="DateTime" />
+            <Field name="order_estimated_delivery_date" size="19" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_orders_dataset.csv" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="246" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="seller_id" selected="False" />
+            <Field field="seller_zip_code_prefix" selected="True" />
+            <Field field="seller_city" selected="True" />
+            <Field field="seller_state" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="seller_id" size="254" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="V_String" />
+            <Field name="seller_zip_code_prefix" size="5" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="String" />
+            <Field name="seller_city" size="40" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="V_String" />
+            <Field name="seller_state" size="2" source="File: C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Dataset_Retail\olist_sellers_dataset.csv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="354" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([product_category_name]) AND [product_category_name] != ""</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([product_category_name]) AND [product_category_name] != ""</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="366" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="seller_id" selected="True" />
+            <SelectField field="seller_city" selected="True" />
+            <SelectField field="seller_state" selected="True" />
+            <SelectField field="seller_zip_code_prefix" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Select seller_id, seller_city, seller_state, seller_zip_code_prefix</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="498" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="order_id" />
+            <Field field="product_id" />
+            <Field field="seller_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>unique = order_id, product_id, seller_id</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="486" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="order_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>unique = order_id</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="594" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeDiff([order_delivered_customer_date], [order_purchase_timestamp], &quot;days&quot;)" field="delivery_duration_days" size="4" type="Int32" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>delivery_duration_days = DateTimeDiff([order_delivered_customer_date], [order_pu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="714" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeFormat([order_purchase_timestamp], &quot;%Y-%m&quot;)" field="order_month_year" size="64" type="String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[order_month_year = DateTimeFormat([order_purchase_timestamp], "%Y-%m")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="834" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="order_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="order_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_order_id" selected="False" rename="Right_order_id" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="954" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="product_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="product_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_product_id" selected="False" rename="Right_product_id" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="966" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="seller_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="seller_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_seller_id" selected="False" rename="Right_seller_id" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1074" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="seller_state" action="GroupBy" rename="Seller State" />
+            <SummarizeField field="order_month_year" action="GroupBy" rename="Order Month Year" />
+            <SummarizeField field="product_category_name" action="GroupBy" rename="Product Category Name" />
+            <SummarizeField field="price" action="Sum" rename="Total Revenue" />
+            <SummarizeField field="freight_value" action="Sum" rename="Total Freight Cost" />
+            <SummarizeField field="order_id" action="Count" rename="Total Orders" />
+            <SummarizeField field="delivery_duration_days" action="Avg" rename="Average Delivery Days" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1062" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Olist_Master_Table.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Olist_Master_Table.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1158" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\USER\Desktop\UTM\UTM SEM 6\BI\Project\Olist_Aggregated_Summary.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Olist_Aggregated_Summary.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="True" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="True" />
+      <Destination ToolID="35" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Join" />
+      <Destination ToolID="35" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Join" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Unique" />
+      <Destination ToolID="17" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="17" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Unique" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Olist_ECommerce_BI_Workflow_Phase2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="bc5ad106-3720-4b7b-9317-8f0684affd2e" />
+      <Telemetry>
+        <PreviousWorkflowId value="294fb395-8640-4937-a4dc-69c7f6139651" />
+        <OriginWorkflowId value="294fb395-8640-4937-a4dc-69c7f6139651" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
