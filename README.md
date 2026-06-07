@@ -49,7 +49,7 @@ The Alteryx ETL workflow generates a highly optimized table with the following 8
 
 ## 📁 Repository Structure
 ```text
-├── Datasets/                            # Raw transactional source CSV files
+├── Dataset_Retail/                      # Raw transactional source CSV files
 |   └── olist_order_items_dataset
 |   └── olist_orders_items_dataset
 |   └── olist_products_items_dataset
