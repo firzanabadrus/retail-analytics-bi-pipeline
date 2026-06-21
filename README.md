@@ -49,13 +49,16 @@ The Alteryx ETL workflow generates a highly optimized table with the following 8
 
 ## 📁 Repository Structure
 ```text
+├── Alteryx_Workflow/                    # Data pipeline directory
+│   └── Olist_ECommerce_BI_Workflow.yxmd # Complete Alteryx XML Workflow file
+│   └── Output Files.zip                 # Output files after cleaning
+│       └── Olist_Master_Table.csv
+│       └── Olist_Aggregated_Sumamry.csv
 ├── Dataset_Retail/                      # Raw transactional source CSV files
 |   └── olist_order_items_dataset.csv
 |   └── olist_orders_items_dataset.csv
 |   └── olist_products_items_dataset.csv
-|   └── olist_sellers_items_dataset.csv
-├── Alteryx_Workflow/                    # Data pipeline directory
-│   └── Olist_ECommerce_BI_Workflow.yxmd # Complete Alteryx XML Workflow file
+|   └── olist_sellers_items_dataset.csv             
 ├── PowerBI_Dashboard/                   # Visualization workspace
 │   └── GroupBiz_Dashboard.pbix          # Power BI Dashboard file
 ├── Report/                              # Project Report
@@ -63,4 +66,4 @@ The Alteryx ETL workflow generates a highly optimized table with the following 8
 │   └── ProjectP2_BI_GroupBiz.pdf        # P2 Project Report
 │   └── ProjectP3_BI_GroupBiz.pdf        # P3 Project Report
 │   └── 
-└── README.md                            # Project documentation
+└── README.md                          
