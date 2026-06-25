@@ -65,5 +65,5 @@ The Alteryx ETL workflow generates a highly optimized table with the following 8
 │   └── ProjectP1_BI_GroupBiz.pdf        # P1 Project Report
 │   └── ProjectP2_BI_GroupBiz.pdf        # P2 Project Report
 │   └── ProjectP3_BI_GroupBiz.pdf        # P3 Project Report
-│   └── BI_Project_GroupBiz              # Final Report
+│   └── BI_Project_GroupBiz.pdf          # Final Report
 └── README.md                          
